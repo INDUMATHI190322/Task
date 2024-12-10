@@ -62,29 +62,7 @@ const ResetFun = () => {
 };
   
 
-  //   console.log('Form submitted with data:', formData);
-  //   axios({
-  //     // Endpoint to send files
-  //     url: `${backendUrl}/details/create`,
-  //     method: "POST",
-  //     headers: {
-  //         // Add any auth token here
-  //         authorization: "your token comes here",
-  //     },
-
-  //     // Attaching the form data
-  //     data: formData,
-  // })
-  //     // Handle the response from backend here
-  //     .then((res) => {
-  //       console.log("Post created:", res.data);
-  //     })
-
-  //     // Catch errors if any
-  //     .catch((err) => {
-  //       console.error("Error creating post:", err);
-  //     }
-  //   );
+  
 
    
 
@@ -122,14 +100,7 @@ const handleUpdate = () => {
     });
 };
 
-//const fun = () => {
-//   setdetails({
-//     Name: '',
-//     Password: '',
-//     Occupation: '',
-//     country: '',
-//   });
-// };
+
   // DELETE request to remove user
   const handleDelete = async (id) => {
     console.log(`Deleting user with ID: ${id}`);
@@ -140,14 +111,7 @@ const handleUpdate = () => {
 } catch (error) {
   console.error("Error deleting user:", error);
 }
-    // axios.delete(`${backendUrl}/details/${id}`)
-    //   .then(() => {
-    //     console.log(`User with ID: ${id} deleted successfully`);
-    //     setdetails(details.filter(details => details.id !== id));
-    //   })
-    //   .catch((error) => {
-    //     console.error('Error deleting user:', error);
-    //   });
+    
     }
   
 
