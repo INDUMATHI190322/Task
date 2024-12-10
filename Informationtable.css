@@ -1,0 +1,30 @@
+.inp{
+
+width: 325px;
+margin-left: 55px;
+}
+.inpu{
+
+    width: 325px;
+    margin-left: 29px;
+    }
+    .input{
+
+        width: 325px;
+        margin-left: 20px;
+        }
+        .inputu{
+
+            width: 325px;
+            margin-left: 40px;
+            }
+.head{
+    font-style: italic;
+  text-shadow:0px 0px 5px blue;
+  font-size: 50px;
+
+}
+
+.body{
+    background-color: skyblue;
+}
