@@ -1,0 +1,165 @@
+.input
+{
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+  
+  margin-right: 80px; 
+}
+.inpu
+{
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+   margin-right: 80px; 
+}
+.inp
+{
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+   margin-right: 80px; 
+}
+.in
+{
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+   margin-right:80px; 
+}
+.inco
+{
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 35px;
+   margin-right: 80px;
+}
+.head{
+    font-style: italic;
+  text-shadow:0px 0px 5px blue;
+  font-size: 50px;
+
+}
+
+.body{
+    background-color: skyblue;
+}
+.table
+{
+    border-style: groove;
+    table-layout: auto;
+}
+.infotable{
+        width:100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-style: groove;
+    
+    }
+    
+    .info-table th, .info-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .info-table th {
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+    }
+    .info-table tr{
+        text-align: center;
+    }
+    
+    .info-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+    .thead{
+        text-align: center;
+    }
+    body{
+        background-color:#ccc;
+    }
+.container{
+    background-color:#f2f2f2;
+    border-style: groove;
+    margin-top: 80px;
+    border-radius: 20px;
+
+
+}
+.Label{
+    display:flex;
+    margin:1%;
+    justify-content: center;
+    align-items:center;
+
+
+
+}
+   #labelname{
+    text-align: left;
+   } 
+
+.list{
+    background-color:aliceblue;
+    border-style: groove;
+    margin-top: 130px;
+    border-radius: 20px;
+    width: 45%;
+    height: 350px;
+}
+.headid{
+    text-align: center;
+}
+/* .span{
+    margin-right: 30px;
+}
+.spanname{
+    margin-right: 40px;
+}  
+.spanpass{
+    margin-right: 85px;
+}
+.spanoccupy{
+    margin-right: 90px;
+}
+.spancountry{
+    margin-right: 70px;
+}
+.tb{
+    width:100%;
+} */
+.tab{
+    background-color:aliceblue;
+    border-style: groove;
+    margin-top: 130px;
+    border-radius: 20px;
+    
+
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
